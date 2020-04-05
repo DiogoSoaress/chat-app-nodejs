@@ -4,11 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "react-scripts start",
-    "start": "serve -s build",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
+    "dev": "nodemon src/index.js",
+    "start": "serve -s src/index.js",
     "heroku-postbuild": "npm run build"
   },
   "keywords": [],
